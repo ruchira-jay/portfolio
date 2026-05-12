@@ -15,12 +15,18 @@
         <div class="nav-container">
             <div class="logo">RJ<span class="logo-dot">.</span></div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="nav-link active"><span class="nav-link-text">Home</span></a></li>
+                <li><a href="#work" class="nav-link"><span class="nav-link-text">Work</span></a></li>
+                <li><a href="#about" class="nav-link"><span class="nav-link-text">About</span></a></li>
+                <li><a href="#education" class="nav-link"><span class="nav-link-text">Education</span></a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-link-text">Contact</span></a></li>
             </ul>
-            <a href="#contact" class="nav-cta">Hire Me</a>
+            <div class="nav-right">
+                <a href="#contact" class="nav-cta"><span>Hire Me</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+            </div>
+            <button class="nav-hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
@@ -140,6 +146,46 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-header">
+            <span class="section-tag">Education</span>
+            <h2 class="section-title">Academic <span class="accent-text">Background</span></h2>
+            <p class="section-sub">My educational qualifications and achievements</p>
+        </div>
+        <div class="education-grid">
+
+            <div class="edu-card">
+                
+                <div class="edu-body">
+                    <span class="edu-tag">Higher Diploma</span>
+                    <h3>Higher Diploma in Computing and Software Engineering</h3>
+                    <p class="edu-institution">ICBT Campus, Sri Lanka</p>
+                    <p class="edu-awarded">Awarded by Cardiff Metropolitan University, UK</p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-body">
+                    <span class="edu-tag">International Diploma</span>
+                    <h3>International Diploma in Information and Communication Technology</h3>
+                    <p class="edu-institution">OTHM Level 3</p>
+                    <p class="edu-awarded">OTHM Qualifications, UK</p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-body">
+                    <span class="edu-tag">Qualification</span>
+                    <h3>Your Qualification Title</h3>
+                    <p class="edu-institution">Institution Name</p>
+                    <p class="edu-awarded">Awarding Body (if any)</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
